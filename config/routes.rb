@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+    # get '/articles', to: 'articles#index' #define route
+    resources :articles, only: [:index] #create crud route 
 end

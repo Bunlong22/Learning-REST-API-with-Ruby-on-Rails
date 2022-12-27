@@ -11,7 +11,7 @@ RSpec.describe Article, type: :model do
   it 'has an invalid title' do
     article.title= ''
     expect(article).not_to be_valid
-    expect(article.errors[:title]).to include("can not be blank")
+    expect(article.errors[:title]).to include("can't be blank") #include is word sensitive, need to make sure =100%
   end
 end
 end 
