@@ -21,6 +21,7 @@ require 'rspec/rails'
 # require only the support files necessary.
 #
 #define custom helper
+
 Dir[Rails.root.join('spec', 'support', '**', '*.rb')].sort.each { |f| require f }
 
 # Checks for pending migrations and applies them before tests are run.
