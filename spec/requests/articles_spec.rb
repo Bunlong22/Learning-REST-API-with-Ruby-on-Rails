@@ -14,6 +14,12 @@ it 'returns articles in the proper order' do
   )
 end
 
+=begin
+# TODO
+  To. Bunlong-san
+  Check out '/index' routing directed to a controller. Currently, the controller derived from '/index' end point is not found now.
+=end
+
 # it 'paginates results' do
 #   article1, article2, article3 =
 #     create_list(:article, 3) do |item, i|
